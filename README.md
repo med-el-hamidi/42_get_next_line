@@ -67,5 +67,5 @@ gcc -D BUFFER_SIZE=32 -o gnl get_next_line.c get_next_line_utils.c main.c
 ```
 For the bonus part:
 ```bash
-gcc -D BUFFER_SIZE=32 -o gnl_bonus get_next_line_bonus.c get_next_line_utils_bonus.c main.c
+gcc -D BUFFER_SIZE=32 -o gnl_bonus get_next_line_bonus.c get_next_line_utils_bonus.c main_bonus.c
 ```
