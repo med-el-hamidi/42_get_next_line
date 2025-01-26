@@ -41,7 +41,6 @@ The implementation revolves around the following key components:
 - **`get_next_line.c`**: Core implementation.  
 - **`get_next_line.h`**: Header file with function declarations and macros.  
 - **`get_next_line_utils.c`**: Helper functions (e.g., linked list utilities).  
-- **`Makefile`**: Simplifies compilation and project management.  
 
 ### Bonus Files
 The project leaves limited room for bonuses, but if the mandatory part is implemented perfectly, the following bonuses can enhance the functionality:  
@@ -62,6 +61,11 @@ The project leaves limited room for bonuses, but if the mandatory part is implem
 - **Standard Library Functions**: The project strictly adheres to the **42 C standard**, avoiding external libraries.
 
 ### Compilation
-Use the provided `Makefile`:  
+compile manually with:
 ```bash
-make all
+gcc -D BUFFER_SIZE=32 -o gnl get_next_line.c get_next_line_utils.c
+
+For the bonus part:
+```bash
+gcc -D BUFFER_SIZE=32 -o gnl_bonus get_next_line_bonus.c get_next_line_utils_bonus.c
+
