@@ -15,7 +15,7 @@ int main(void)
 
     if (fd1 < 0 || fd2 < 0 || fd3 < 0)
     {
-        perror("Error opening files");
+        perror("Error opening files! cat > , vi file1.txt, file2.txt and file3.txt");
         return (1);
     }
 
