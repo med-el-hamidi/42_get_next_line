@@ -13,7 +13,7 @@ int main(void)
     
     if (fd1 < 0 || fd2 < 0)
     {
-        perror("Error opening files");
+        perror("Error opening files! cat > , vi file1.txt and file2.txt");
         return (1);
     }
     while ((line = get_next_line(fd1)))
