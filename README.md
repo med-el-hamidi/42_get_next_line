@@ -77,3 +77,5 @@ For the bonus part:
 ```bash
 ./gnl_bonus
 ```
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/med-el-hamidi/get_next_line/blob/main/LICENSE.md)
